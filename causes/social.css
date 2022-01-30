@@ -1,0 +1,558 @@
+
+    .top-navbar{
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      }
+      
+      .navbar-light .navbar-nav .nav-link {
+        color: black;
+        font-size: 20px;
+        transition: .5s ease-in-out;
+      }
+      
+      .nav-item a {
+        font-size: large;
+        color: black;
+      }
+      .navbar-nav {
+        margin-left: auto;
+        padding-right: 10px;
+      }
+      
+      .navbar-brand img{
+        width:230px;
+         height:70px;
+      }
+      .navbar-expand-lg .navbar-nav .dropdown-menu{
+        border: none;
+        /* background: transparent; */
+      }
+
+
+.card{
+    border:none;
+    outline:none;
+}
+
+.card p{
+    color:gray;
+}
+
+.circle{
+    height:70px;
+    width:70px;
+    background-color:lightgray;
+    color:black;
+    padding:12px;
+    font-size:30px;
+    border-radius:50%;
+    display:inline-block;
+    margin-bottom:20px;
+
+     
+}
+
+.card:hover .circle{
+    background-color:black;
+    color:white;
+    transition:0.5s;
+}
+
+
+.placard{
+    height: 59px;
+    width: 212px;
+    background-color: rgb(182, 173, 173);
+    background-color: rgb(193, 227, 212);
+    margin: -22px 6.5%;
+    border-radius: 6px;
+    position: relative;
+    margin: auto;
+    margin-top: auto;
+    margin-top: -7.5%;
+}
+
+.row{
+    margin:2%;
+}
+
+.placard:hover{
+     background-color:rgb(5, 5, 5);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* transition: box-shadow 0.25s; */
+    transition: .2s ease-out;
+ 
+} 
+
+/* 
+.placard.hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0%;
+    background: var(--black);
+    z-index: -1;
+    transition: .2s ease-out;
+    
+} */
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 49.33333333%;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Times New Roman', Times, serif;
+ }
+
+ .top {
+     display: flex;
+ }
+
+ .one {
+     flex: 1
+         /* float:left; */
+ }
+
+ .two {
+     flex: 1;
+     /* float:right; */
+     width: 55%;
+     height: 730px;
+     background-image: url('../images/img-5.jpg');
+     /* float: right; */
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 330px 0px 0px 330px;
+ }
+
+ .one h2 {
+     padding: 10%;
+     text-align: center;
+     font-size: 39px;
+     padding-bottom: 27px;
+     font-weight: bold;
+     word-wrap: break-word;
+ }
+
+ .top .one p {
+     padding: 10%;
+     padding-top: 10px;
+     font-size: 19px;
+     text-align: center;
+ }
+
+ /* .points ul{
+     display:flex;
+     width:auto;
+ }
+     .points ul li{
+     width:24px;
+ } */
+
+ .content {
+     text-align: center;
+     /* background-color: lavender; */
+     /* padding-top: 53px; */
+ }
+
+ .content h2 {
+     font-weight: 600;
+     text-decoration: underline;
+ }
+
+
+
+
+
+
+/* 
+ ul {
+     text-align: center;
+    
+     font-size: 18px;
+     padding: 34px;
+ } */
+
+ .types .container h5 {
+     font-size: 30px;
+ }
+
+ .types.container p {
+     font-size: 20px;
+ }
+
+ .col-lg-4 .card .second-box {
+     height: fit-content;
+ }
+
+ .col-lg-4 .card .card-body p {
+     color: black;
+ }
+
+
+ /* .card {
+     background-color: #cbfccb;
+ } */
+
+ .py-5 {
+     padding-top: 1rem !important;
+     padding-bottom: 3rem !important;
+ }
+
+ .para {
+     padding: 5%;
+
+     padding-top: 0px;
+ }
+
+ .row .col-lg-4 .card .third-box {
+
+     height: fit-content;
+ }
+
+ .col-lg-4 .card {
+  
+     box-shadow: 19px 19px 173px rgba(128, 199, 114, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+ }
+
+ .para {
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     padding: 57px;
+ }
+
+ .our-initiative .para h3 {
+     font-size: 37px;
+     color: #149646;
+     font-weight: 700;
+     text-decoration: underline;
+     font-weight: 700;
+     text-align: center;;
+word-wrap: break-word;
+ }
+
+ .our-initiative .para h4 {
+     word-wrap: break-word;
+     font-size: 24px;
+     text-align: center;
+     color: #149646;
+     text-decoration: underline;
+     font-weight: 600;
+     margin-bottom: -18px;
+     margin-top: 34px;
+ }
+
+ .our-initiative .para p {
+     font-size: 20px;
+ }
+
+ .female-entrepreneurship .box {
+     display: flex;
+
+ }
+
+ .female-entrepreneurship .box .text {
+
+
+
+     flex: 1;
+     /* height: 500px; */
+     width: 500px;
+     margin: auto;
+     text-align: center;
+     padding-left: 6%;
+
+ }
+
+ .female-entrepreneurship .box .image {
+     flex: 1;
+     /* display:flex; */
+     display: block;
+     background-image: url('../images/img-6.png');
+     background-repeat: no-repeat;
+     background-position: center;
+
+     height: 500px;
+     width: 500px;
+ }
+ 
+ .female-entrepreneurship .box .text p ul{
+font-size: 17px;
+padding:0%;
+}
+
+.our-initiative .para ul{
+text-align: center;
+     /* margin-top: 12px; */
+     font-size: 18px;
+     padding: 34px;
+}
+
+.content p {
+ text-align: center;
+     /* margin-top: 12px; */
+     font-size: 18px;
+     padding: 34px;
+}
+
+.content li{
+ font-size:20px;
+}
+
+.female-entrepreneurship .box .text li{
+font-size:18px;
+font-weight:bold;
+}
+
+.female-entrepreneurship .box .text p{
+font-size: 18px;
+padding-top: 5%;
+}
+
+.female-entrepreneurship .box .text h2{
+font-size:27px;
+font-weight:bold;
+color:#149646;
+text-decoration: underline;
+}
+/* 
+.box{
+background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(163, 255, 0));
+} */
+
+.our-role{
+ padding:5%;
+}
+
+.our-role h3{
+ font-size:37px;
+ text-align:center;
+ text-decoration: underline;
+}
+.our-role p{
+ font-size:19px;
+}
+
+.types-heading{
+font-size:40px;
+}
+
+.inner-content{
+    height: fit-content;
+/* box-shadow: rgba(0, 0, 0, 0.19) 0px 33px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+background: #84f84e;
+/* background: linear-gradient(357deg, rgba(34,193,195,1) 0%, rgba(189,253,45,0.47692580450148814) 100%, rgba(45,253,229,1) 100%); */
+padding-top: 4%;
+}
+
+.inner-content h2{
+padding-top:-2.5%;
+}
+.content{
+/* height: 400px; */
+/* width: 1300px; */
+margin: auto;
+/* padding-top: 4%; */
+}
+.types-heading{
+padding:3%;
+word-wrap: break-word;
+}
+
+
+    /* Subscribe */
+
+    .subscribe{
+        text-align: center;
+        padding: 20px;
+      }
+      .subscribebtn:hover{
+        background-color:#0f9c0f;
+        border: none;
+      }
+      
+      .subscribebtn{
+        background-color:#086908;
+        color: white;
+        border: none;
+      }
+      .inptfld{
+        border-radius: 20px;
+        padding: 5px;
+        width: 20%;
+      
+      }
+       .subscribebtn{
+        border-radius: 20px;
+        border: none;
+        padding: 5px;
+      }
+    
+    /* footer */
+              .footer #socialicon a {
+                text-decoration: none;
+              }
+              
+              .footer a{
+                text-decoration: none;
+              }
+              .footer #socialicon .text-white{
+                margin-right:0.5rem ;
+              } 
+            
+              
+              .footer #socialicon i{
+                text-align: left;
+                font-size: large;
+              }
+             
+              .footer .col-lg-4{
+                  width: 25%;
+              }
+
+              .footer .col-md-2{
+                  width: 16.66666667%;
+              }
+    
+              .footer .col-md-3{
+                  width: 25%;
+              }
+              .footer .col-md-4{
+                  width: 33.3333333%;
+              }
+
+
+ @media screen and (min-width:200px) and (max-width:800px){
+
+
+    .top .two{
+        flex: none;
+        height: 500px;
+        border-radius: 50%;
+        /* margin: 0% 10%; */
+    }
+    .female-entrepreneurship .box{
+        flex-direction: column;
+    }
+
+    .female-entrepreneurship .box .text{
+        padding: 0%;
+        width: 100%;
+    }
+    .female-entrepreneurship .box .image{
+        height: 400px;
+        flex: none;
+        width: 100%;
+    }
+    .types .row {
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+      }
+
+     .types .col-lg-4 {
+        flex: 0 0 auto;
+        width: 100%;
+      }
+    .types .col-lg-4 .card .second-box {
+        height: fit-content;
+      }
+.one h2{
+    font-size: 28px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+}
+
+.one{
+    flex-direction: column;
+}
+.two{
+    flex-direction: column;
+    width:100%;
+    height:100px;
+    background-image: url('../images/img-5.jpg');
+    
+}
+
+.content .inner-content h2{
+    margin-bottom: -0.5rem;
+    
+}
+.content .inner-content ul{
+    margin-right:3%;
+}
+
+.footer .col-lg-4{
+    width: 100%;
+}
+
+.footer .col-md-2{
+    width: 100%;
+}
+
+.footer .col-md-3{
+    width: 100%;
+}
+.footer .col-md-4{
+    width: 100%;
+}
+
+ }
+
+ 
+/* 
+@media screen and (max-width:500px){
+    .content .inner-content h2{
+        margin-bottom: -0.5rem;
+        
+    }
+    .content .inner-content ul{
+        margin-right:3%;
+    }
+} */
+
+
+  
+@media screen and (min-device-width: 200px) and (max-device-width: 800px) {
+    .navbar-light .navbar-nav .nav-link {
+      color: #000000;
+      font-size: 1.1rem;
+      padding-left: 10px;
+      transition: .5s ease-in-out;
+    }
+    
+    .nav-item a {
+      font-size: 1rem;
+      color: black;
+      padding-left:45px;
+    }
+   
+    .navbar-brand img{
+      width:200px;
+       height:80px;
+    }
+
+    .footer h6{
+        font-size: 1rem;
+        }
+
+        .subscribe .inptfld
+  {
+    width: 50%;
+    height: 50px;
+  }
+  
+  .subscribe .subscribebtn{
+    width: 35%;
+    height: 50px;
+  }
+}

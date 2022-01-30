@@ -1,0 +1,173 @@
+
+  *{  
+    margin: 0%;
+    padding: 0%;
+    /* transition: all .3s ease-out;*/
+  
+    font-family:'Times New Roman', Times, serif; 
+}
+
+
+/* navbar */
+
+.top-navbar{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 20px;
+  transition: .5s ease-in-out;
+}
+
+.nav-item a {
+  font-size: large;
+  color: black;
+}
+.navbar-nav {
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+.navbar-brand img{
+  width:230px;
+   height:70px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+  border: none;
+  /* background: transparent; */
+}
+
+.image img{
+  width: 100%;
+}
+section{
+  padding-top: 3%;
+  font-size: 1.1rem;
+}
+  #red {
+    color: red;
+  }
+
+  #green {
+    color: green;
+  }
+
+  #ourgoals{
+    text-align: center;
+    padding-left:5%;
+  }
+  
+  .desc,
+  .values {
+    text-align: center;
+    background-color: cornsilk;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .desc{
+    background-color: rgb(220, 248, 193);
+  }
+  
+
+
+  @media(max-width:800px) {
+    .w-100 {
+      height: 40%;
+    }
+    .row{
+      flex-direction: column;
+  }
+
+  }
+
+  
+  .col{
+    text-align: center;
+  }
+
+  /* Subscribe */
+
+.subscribe{
+  text-align: center;
+  padding: 20px;
+}
+.subscribebtn:hover{
+  background-color:#0f9c0f;
+  border: none;
+}
+
+.subscribebtn{
+  background-color:#086908;
+  color: white;
+  border: none;
+}
+.inptfld{
+  border-radius: 20px;
+  padding: 5px;
+  width: 20%;
+
+}
+ .subscribebtn{
+  border-radius: 20px;
+  border: none;
+  padding: 5px;
+}
+
+/* footer */
+        .footer #socialicon a {
+          text-decoration: none;
+        }
+        
+        .footer a{
+          text-decoration: none;
+        }
+        .footer #socialicon .text-white{
+          margin-right:0.5rem ;
+        } 
+      
+        
+        .footer #socialicon i{
+          text-align: left;
+          font-size: large;
+        }
+       
+      
+        
+@media screen and (min-device-width: 200px) and (max-device-width: 800px) {
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1rem;
+    padding-left: 10px;
+    transition: .5s ease-in-out;
+  }
+  
+  .nav-item a {
+    font-size: 1rem;
+    color: black;
+    padding-left:45px;
+  }
+ 
+  .navbar-brand img{
+    width:200px;
+     height:80px;
+  }
+
+  .footer h6{
+      font-size: 1rem;
+      }
+
+      .subscribe .inptfld
+{
+  width: 50%;
+  height: 50px;
+}
+
+.subscribe .subscribebtn{
+  width: 35%;
+  height: 50px;
+}
+}

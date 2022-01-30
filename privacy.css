@@ -1,0 +1,214 @@
+
+    .top-navbar{
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      }
+      
+      .navbar-light .navbar-nav .nav-link {
+        color: black;
+        font-size: 20px;
+        transition: .5s ease-in-out;
+      }
+      
+      .nav-item a {
+        font-size: large;
+        color: black;
+      }
+      .navbar-nav {
+        margin-left: auto;
+        padding-right: 10px;
+      }
+      
+      .navbar-brand img{
+        width:230px;
+         height:70px;
+      }
+      .navbar-expand-lg .navbar-nav .dropdown-menu{
+        border: none;
+        /* background: transparent; */
+      }
+
+
+
+
+
+.privacy{
+    margin: 0;
+    padding: 2em;
+    /* background: #f7f7f7; */
+    background: white;
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-weight: bold; */
+    word-wrap: break-word;
+}
+
+.privacy .content .heading{
+    font-size: xx-large;
+    /* color: rgb(120, 163, 201); */
+    margin: 0px 0px 24px 0px;
+    /* text-align: center; */
+}
+
+.privacy .content .para{
+    font-size: large;
+}
+
+.privacy .content h3{
+    text-transform: capitalize;
+    /* color: rgb(120, 163, 201); */
+    font-size: x-large;
+
+}
+
+.privacy .content .para ul{
+    padding: 0px 20px;
+    margin: 0;
+}
+
+.privacy .content span1{
+    color: red;
+}
+
+.privacy .last{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.privacy .last p{
+    padding: 0px;
+    margin: 0;
+}
+
+.privacy .contact{
+    text-align: center;
+}
+.privacy .contact .row{
+    display: flex;
+    justify-content: center;
+    column-gap: 5%;
+}
+
+@media(max-width:550px){
+    .row{
+        flex-direction: column;
+    }
+    .col{
+        width: 100%;
+    }
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 800px) {
+    .navbar-light .navbar-nav .nav-link {
+      color: #000000;
+      font-size: 1.1rem;
+      padding-left: 10px;
+      transition: .5s ease-in-out;
+    }
+    
+    .nav-item a {
+      font-size: 1rem;
+      color: black;
+      padding-left:45px;
+    }
+   
+    .navbar-brand img{
+      width:200px;
+       height:80px;
+    }
+
+    .footer h6{
+        font-size: 1rem;
+        }
+
+        .subscribe .inptfld
+  {
+    width: 50%;
+    height: 50px;
+  }
+  
+  .subscribe .subscribebtn{
+    width: 35%;
+    height: 50px;
+  }
+}
+
+
+    /* Subscribe */
+
+    .subscribe{
+        text-align: center;
+        padding: 20px;
+      }
+      .subscribebtn:hover{
+        background-color:#0f9c0f;
+        border: none;
+      }
+      
+      .subscribebtn{
+        background-color:#086908;
+        color: white;
+        border: none;
+      }
+      .inptfld{
+        border-radius: 20px;
+        padding: 5px;
+        width: 20%;
+      
+      }
+       .subscribebtn{
+        border-radius: 20px;
+        border: none;
+        padding: 5px;
+      }
+    
+    /* footer */
+              .footer #socialicon a {
+                text-decoration: none;
+              }
+              
+              .footer a{
+                text-decoration: none;
+              }
+              .footer #socialicon .text-white{
+                margin-right:0.5rem ;
+              } 
+            
+              
+              .footer #socialicon i{
+                text-align: left;
+                font-size: large;
+              }
+
+
+              
+      @media screen and (min-device-width: 200px) and (max-device-width: 800px) {
+        .navbar-light .navbar-nav .nav-link {
+          color: #000000;
+          font-size: 1.1rem;
+          padding-left: 10px;
+          transition: .5s ease-in-out;
+        }
+        
+        .nav-item a {
+          font-size: 1rem;
+          color: black;
+          padding-left:45px;
+        }
+       
+        .navbar-brand img{
+          width:200px;
+           height:80px;
+        }
+    
+      
+    
+            .subscribe .inptfld
+      {
+        width: 50%;
+        height: 50px;
+      }
+      
+      .subscribe .subscribebtn{
+        width: 35%;
+        height: 50px;
+      }
+    }

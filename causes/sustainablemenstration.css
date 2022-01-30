@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    padding-right: 10px;
+  }
+  
+  .nav-item a {
+    font-size: x-large;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+
+
+  section{
+    padding:20px 5%;
+  }
+  .Menstruation .row gx-5{
+    justify-content: space-between;
+    display:flex;
+ }
+ @media(max-width:700px){
+    .Menstruation .row gx-5{
+        flex-direction: column;
+    }
+}
+
+.image img{
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+}
+.Menstruation{
+  /* background-color: rgb(229, 240, 233); */
+  font-family: Times New Roman;
+font-size: 20px;
+}
+.Menstruation .row img{
+    width: 90%;
+    height: 90%;
+}
+
+.Menstruation .row{
+    text-align: center;
+    padding-top: 30px;
+    /* background-color: rgb(229, 240, 233); */
+}
+
+.Menstruation .row .col-md-6{
+  padding: 0 10px 0 10px;
+}
+.Menstruation .row p{
+    text-align: left;
+}
+
+/* .Menstruation .desc{
+  background-color: rgb(229, 240, 233);
+} */
+
+.Menstruation h4{
+  color: rgb(205 33 39);
+  text-align: center;
+  font-size:2.5rem;
+}
+
+.Menstruation span{
+    color:#27994c;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.social{
+  background-color:#d0f8b6;
+  text-align: center;
+  padding: 20px;
+}
+
+.social span{
+  font-weight: bolder;
+    font-size: 25px;
+   color: #27994c;
+}
+
+/* Subscribe */
+
+.subscribe{
+  text-align: center;
+  padding: 20px;
+}
+.subscribebtn:hover{
+  background-color:#0f9c0f;
+  border: none;
+}
+
+.subscribebtn{
+  background-color:#086908;
+  color: white;
+  border: none;
+}
+.inptfld{
+  border-radius: 20px;
+  padding: 5px;
+  width: 20%;
+
+}
+ .subscribebtn{
+  border-radius: 20px;
+  border: none;
+  padding: 5px;
+}
+
+/* footer */
+.footer .me-5 {
+  text-align: center;
+}
+.footer #socialicon a {
+  text-decoration: none;
+}
+
+.footer #socialicon {
+  text-align: center;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+@media(max-width:800px){
+  
+  .subscribe .inptfld
+  {
+    width: 50%;
+    height: 50px;
+  }
+  
+  .subscribe .subscribebtn{
+    width: 35%;
+    height: 50px;
+  }
+}

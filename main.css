@@ -1,0 +1,2114 @@
+
+/* navbar */
+
+.top-navbar{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 20px;
+  transition: .5s ease-in-out;
+}
+
+.nav-item a {
+  font-size: large;
+  color: black;
+}
+.navbar-nav {
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+.navbar-brand img{
+  width:230px;
+   height:80px;
+}
+
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+*{  
+    margin: 0%;
+    padding: 0%;
+    font-family:'Times New Roman', Times, serif; 
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ section{
+    padding:20px 5%;
+}
+
+/* home */
+
+.home{
+    /* background-color: rgb(217, 247, 187); */
+    height:fit-content;
+    width: 100%;
+}
+ .home .box{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+     gap:1.5rem;
+     width: 100%;
+     height:fit-content;
+     /* background-color: #000000; */
+
+ }
+ .home .box .item{
+     /* background-color: rgb(217, 247, 187); */
+     height: 100%;
+     position: relative;
+     border-radius: 15px;
+     padding: 5%;
+     /* box-shadow: 3px 3px 10px rgb(241, 228, 228); */
+ }
+
+.home .box img{
+   object-fit: contain;
+   height: 100%;
+   width: 100%;
+   border-radius:10% ;
+
+}
+.home .box .item .content{
+    text-align: center;
+    padding: 20px 10px ;
+    padding-top: 10%;
+}
+.home .box .item .content p{
+  font-size: 1.1rem;
+  margin-bottom: -2%;
+  margin-top: 2%;
+}
+.home .box .item .content h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.home .box .item .content h5{
+  font-size: 1.5rem;
+}
+
+.home .box .item .content .red{
+    color: rgb(209, 19, 19);
+}
+
+.home .box .item .content .green{
+    color: rgb(33, 153, 75);
+}
+
+/* button */
+
+.home .button {
+    background-color: #0ac743;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    height: 10%;
+    width: 28%;
+    border: none;
+    transition-duration: 0.4s;
+    margin-top:8%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+ .home .button:hover{
+background-color: green;
+transition: .3s ease-out;
+padding: 15px;
+  }
+
+
+  /* causedonate */
+
+  .causedonatee{
+    /* background-color: rgb(217, 247, 187); */
+    height:fit-content;
+    width: 100%;
+}
+ .causedonatee .box{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+     gap:1.5rem;
+     width: 100%;
+     height:fit-content;
+     /* background-color: #000000; */
+
+ }
+ .causedonatee .box .item{
+   display: grid;
+     /* background-color: rgb(217, 247, 187); */
+     height: 100%;
+     position: relative;
+     border-radius: 15px;
+     padding: 5%;
+     justify-items: center;
+     /* box-shadow: 3px 3px 10px rgb(241, 228, 228); */
+ }
+
+ .causedonatee .box .item h5{
+   padding: 10px;
+   font-size: 1.5rem;
+   background-color: black;
+   color: rgb(255, 255, 255);
+ }
+
+.causedonatee .box img{
+   object-fit: contain;
+   height: 100%;
+   width: 100%;
+   border-radius:10% ;
+
+}
+.causedonatee .box .item .content{
+    text-align: center;
+    padding: 20px 10px ;
+    padding-top: 10%;
+    /* display: grid; */
+    /* justify-items: center; */
+}
+.causedonatee .box .item .content p{
+  font-size: 1.1rem;
+  margin-bottom: -2%;
+  margin-top: 2%;
+}
+.causedonatee .box .item .content h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.causedonatee .box .item .content h5{
+  font-size: 1.5rem;
+}
+
+.causedonatee .box .item .content .red{
+    color: rgb(209, 19, 19);
+}
+
+.causedonatee .box .item .content .green{
+    color: rgb(33, 153, 75);
+}
+
+/* button */
+
+.causedonatee .button {
+    background-color: #0ac743;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    height: 10%;
+    width: 28%;
+    border: none;
+    transition-duration: 0.4s;
+    margin-top:8%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+ .causedonatee .button:hover{
+background-color: green;
+transition: .3s ease-out;
+padding: 15px;
+  }
+
+
+
+  /* mission vision */
+
+  .visionbox p{
+    font-size: 1.2rem;
+  }
+
+  .visionbox .mission{
+    background-color: #84f84e;
+  }
+
+  .visionbox .mission p{
+    padding: 0 10%;
+  }
+
+  .visionbox .mission i{
+    padding-top: 2%;
+  }
+  .visionbox .vision{
+    padding-bottom: 1%;
+    background: #efefef;
+  }
+
+  .visionbox .vision i{
+    padding-top: 1%;
+  }
+
+  /* DONATE NOW */
+
+  /* .card-body {
+    height: 250px;
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+.donate .py-5{
+  padding: 0%;
+}
+
+.donate  .card{
+    border:none;
+    outline:none;
+    background-color: rgb(217, 247, 187);
+}
+
+.donate .card p{
+    color:gray;
+}
+
+.donate .circle{
+    height:70px;
+    width:70px;
+    background-color:lightgray;
+    color:black;
+    padding:12px;
+    font-size:30px;
+    border-radius:50%;
+    display:inline-block;
+    margin-bottom:20px;
+
+     
+}
+
+.donate .card:hover .circle{
+    background-color:black;
+    color:white;
+    transition:0.5s;
+}
+
+
+.donate .placard{
+    height: 56px;
+    width: 212px;
+     background-color: rgb(182, 173, 173);
+    background-color: rgb(193, 227, 212); 
+    background-color: rgb(77, 178, 133);
+    margin: -22px 6.5%;
+    border-radius: 15px;
+    position: relative;
+    margin: auto;
+    margin-top: auto;
+    margin-top: -5.5%;
+}
+.donate .placard h3
+{
+  text-align: center;color: honeydew;padding:auto; align-items: center;
+                            justify-content: center;padding-top: 5%;
+}
+
+.donate .row{
+  display: flex;
+    margin:2%;
+}
+
+.donate .row .col-lg-4{
+  width: 49%;
+}
+
+.donate .placard:hover{
+     background-color:rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: box-shadow 0.25s;
+
+ 
+} */
+/* .donate{
+  margin-top: -75%;
+}  */
+/* .donate .card-body{
+ height: fit-content;
+}
+.donate h4,h2{
+  font-size: 3rem;
+}
+
+.donate .placard{
+  height: 80px;
+}
+.donate .circle{
+  height: 50%;
+  width: 20%;
+}
+.donate .circle .fa{
+  font-size: 4rem;
+}
+
+.donate .button{
+padding: 20px;
+}
+
+.donate-button{
+  text-align: center;
+}
+
+@media (max-width:800px){
+  .donate .card{
+        margin-top:  10%;   }
+
+       
+}  */
+
+
+/* ABOUT US  */
+
+
+.about h1{
+    text-align: center;
+
+}
+.about span{
+    color: green;
+}
+
+.about .row{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.about .col{
+    width: 50%;
+}
+
+.about .image img{
+    width: 100%;
+    text-align: center;
+}
+
+.about .content{
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex: 1 1 auto;
+}
+
+.about p{
+    line-height: 27px;
+    text-align: justify;
+    font-size: large;
+}
+
+@media(max-width:1000px){
+    .about .row{
+        flex-direction: column;
+    }
+    .about .col{
+        width: 100%;
+    }
+}
+
+button{
+    padding:50px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background: rgb(60, 201, 60);
+    border-radius: 10px;
+}
+
+.about .stats-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.about .data{
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 1 1 auto;
+    width: 30%;
+}
+
+ @property --num {
+    syntax: "<integer>";
+    initial-value: 100;
+    inherits: false;
+  }
+  
+  .about .inc {
+    animation: counter 5s  alternate ease-in-out;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    padding: 1rem;
+  }
+  .about .inc::after {
+    content: counter(num);
+  }
+  
+  @keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 100;
+    }
+  }
+
+  .about i{
+      /* background: rgb(196, 240, 196); */
+      padding: 5px;
+      border-radius: 50%;
+      color: rgb(20, 46, 20);
+  }
+
+  .about h3{
+      color: rgb(58, 57, 57);
+  }
+
+  @media screen and(max-width: 700px){
+    .col-md-3,
+     .col-md-4 ,
+     .col-md-2{
+      font-size: 20px;
+      width: 50%;
+      text-align: center;
+  }
+  }
+
+  /* Action */
+
+
+#portfolio{  
+      text-align: center;
+      background-color: #e8e8e8;
+    
+  } 
+.portfolio .fa{
+  color: green;
+}  
+#portfolio-text{
+    font-size:19px;
+}
+.portfolio #heading{
+    font-size:40px;
+    font-weight: bold;
+text-decoration: underline;
+}
+.portfolio .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr)); /*inline*/
+    gap:1.5rem;
+   
+}
+
+
+.portfolio .box-container .box{
+    height: 25rem;
+  
+    overflow:hidden;
+    position: relative;
+    margin: 2px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30) ,0 15px 12px rgba(0,0 ,0, 0.22);
+  
+}
+
+.portfolio .box-container .box img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio .box-container .box span{
+    position: absolute;
+    top:1.5rem; right: 2rem;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.portfolio .box-container .box .content{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:6rem; left: 0;
+    transition-delay: .3s;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.portfolio .box-container .box:hover .content{
+    top:0; 
+    opacity: 1;
+}
+
+.portfolio .box-container .box .content h4{
+   padding: 20px;
+}
+
+/* .portfolio .box-container .box h3{
+padding: 2.5%;
+font-size: 1.6rem;
+font-weight: 700;
+ cursor: pointer;
+ padding-top: 25px;
+} */
+.portfolio .box-container .box h4{
+  cursor: pointer;
+  padding-top: 10px;
+ }
+.portfolio .subheading h3{
+  font-weight: 700;
+  padding: 2.5%;
+  font-size: 1.6rem;
+  font-family:'Quicksand', sans-serif; 
+
+}
+
+.portfolio .subheading {
+  padding: 4.5%;
+}
+
+
+ /* .portfolio .subheading .social_entrepreneurship{
+   padding-top: -2px;
+ } */
+ 
+
+
+.portfolio .box-container .box .content p{
+    font-size: 1.5rem;
+}
+
+.portfolio .box-container .box::before{
+    height: 80%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    top:0; left: 0;
+    background: #f8f9d2;
+    background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+    clip-path: circle(30% at 93% 0);
+    transition: .3s linear;
+    font-family:'Quicksand', sans-serif; 
+  }
+
+
+.portfolio .box-container .box:hover::before{
+    clip-path: circle(100%);
+}
+
+
+.portfolio span{
+    font-size: 25px;
+font-weight: 600;
+color: rgb(0, 0, 0);
+}
+
+
+.portfolio .content h3{
+    text-decoration: underline;
+}
+
+/* OUR TEAM  */
+
+#more {display: none;}
+#more2 {display: none;}
+
+
+.team {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px 5%;
+
+}
+
+.team, .team:before, .team:after {
+  box-sizing: inherit;
+}
+
+.team h2{
+  text-align: center;
+  color: rgb(82, 81, 81);
+}
+
+.team .container h2{text-align: left;
+color: black;}
+
+.team .row{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.team .column {
+  /* float: left; */
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .team .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.team .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  
+}
+
+.team .container {
+  padding: 0px 16px 10px 16px;
+  
+}
+
+.team .container::after,.team .row::after {
+  /* content: ""; */
+  clear: both;
+  display: table;
+}
+
+.team .title {
+  color: grey;
+  font-size: medium;
+}
+
+.team p{
+  line-height: 20px;
+}
+
+.team .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #008000b5;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.team .button:hover {
+  background-color: rgb(118, 235, 118);
+  color: black;
+}
+
+
+@media(max-width:600px){
+  .team .row{
+      flex-direction: column;
+  }
+  .team .column{
+      width: 100%;
+      display: block;
+
+      /* padding: 10px 50px; */
+  }
+}
+
+/* message from founder */
+
+.message{
+  /* background: rgb(133, 192, 202); */
+  background-color: rgb(207, 230, 207);
+  height: fit-content;
+  width: 100%;
+   /*border-radius: 15px;
+  margin: 0% 8%; */
+  justify-content: center;
+  /* font-family: 'Raleway', sans-serif; */
+  font-weight: 500;
+}
+.message h3, p, hr{
+  margin: 0;
+}
+
+.message .text h3 i{
+  vertical-align: middle;
+  color: rgb(51, 51, 51);
+}
+
+.message .text h3{
+  text-align: center;
+  font-weight: 800;
+}
+
+.message .text{
+  padding: 3% 10%;
+  text-align: justify;
+}
+
+.message .text p1{
+  float: right;
+  font-weight: bold;
+}
+
+/* testemonials */
+
+.testemonials{
+  /* background-image:url(images/Medlife-Foundation-Reg-Logo.png),linear-gradient(black, rgb(97, 93, 93), rgb(0, 0, 0));
+ 
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  color: #000000; */
+  /* background-image: linear-gradient(to bottom right, #df1414, #63d514); */
+  font-size: 1.2rem;
+  /* background-color: #84f84e; */
+}
+
+/* .testemonials h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #ffdc12;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+} */
+.testemonials .carousel {
+	width: 650px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+}
+.testemonials .carousel .carousel-item {
+	text-align: center;
+	overflow: hidden;
+	/* min-height: 340px; */
+}
+
+.testemonials .carousel .img-box {
+	width: 35%;
+	height: 40%;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.testemonials .carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.testemonials .carousel .testimonial {	
+	padding: 10px 0 10px;
+}
+.testemonials .carousel .overview {	
+	text-align: center;
+	padding-bottom: 5px;
+}
+.testemonials .carousel .overview b {
+
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	display: block;	
+	padding-bottom: 5px;
+}
+.testemonials .carousel .star-rating i {
+	color: #ffdc12;
+}
+.testemonials .carousel-control-prev, .carousel-control-next {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #999;
+	text-shadow: none;
+	top: 90%;
+  right: 45%;
+}
+.testemonials .carousel-control-prev i, 
+.testemonials .carousel-control-next i {
+	font-size: 20px;
+	margin-right: 2px;
+  text-decoration: none;
+}
+.testemonials .carousel-control-prev  {
+	left: auto;
+	right: 55%;
+  top: 90%;
+}
+.testemonials .carousel-control-next i {
+	margin-right: -2px;
+  text-decoration: none;
+}
+.testemonials .carousel .carousel-indicators {
+	bottom: 15px;
+}
+.testemonials .carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	margin: 1px 5px;
+	border-radius: 50%;
+}
+.testemonials .carousel-indicators li {	
+	background: #e2e2e2;
+	border: none;
+}
+.testemonials .carousel-indicators li.active {		
+	background: #888;		
+}
+/* instagram */
+.instagram{
+  text-align: center;
+  padding: 1em;
+}
+
+.instagram h1{
+  color: green;
+  margin-top: 0;
+}
+
+.instagram a{
+  border-radius: 5px;
+  color: white;
+  background: green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.instagram a:hover{
+  background: rgb(6, 95, 6);
+}
+
+/* donatevolunteerbox */
+
+.donatevolunteerbox{
+    width: auto;
+    height: 600px;
+    background-image: url('images/volunteer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.65);
+    color: white;
+    margin-bottom: 3%;
+}
+
+
+.donatevolunteerbox .text {
+    text-align: right;
+    color: white;
+    padding: 4%;
+    font-size: 1.2rem;
+    
+}
+
+.donatevolunteerbox .button {
+  background-color: #0ac743;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  height: 10%;
+  width: fit-content;
+  border: none;
+  margin:8%;
+ }
+
+.donatevolunteerbox .text h2 {
+    font-size: 2.2rem;
+}
+
+
+.donatevolunteerbox .text {
+    display: flex;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.donatevolunteerbox .text .volunteer {
+    flex: 1;
+    padding: 5%;
+}
+
+.donatevolunteerbox .text .donatenow {
+    flex: 1;
+    padding: 5%;
+}
+
+.donatevolunteerbox .text p {
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 200px) and (max-width:900px){
+    .donatevolunteerbox{
+        display: flex;
+flex-direction: column;
+height: auto;
+
+    }
+    .donatevolunteerbox .text{
+        flex-direction: column;
+        width:90%;
+    }
+  
+
+}
+
+
+/* footer */
+.footer .me-5 {
+  text-align:left;
+}
+.footer #socialicon a {
+  text-decoration: none;
+}
+
+.footer #socialicon i{
+  text-align: left;
+  font-size: large;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+
+
+
+@media screen and (max-device-width: 800px) {
+  .causedonatee .box .item .content p{
+    font-size: 3rem;
+  }
+  .causedonatee .box .item .content .green{
+    font-size: 5rem;
+  }
+
+.portfolio .box-container .box span {
+  position: absolute;
+  top: 3.5rem;
+  right: 4rem;
+  font-weight: bolder;
+  font-size: 6rem;
+}
+}
+@media screen and (min-device-width: 200px) and (max-device-width: 300px) {
+/* 
+  .donate .row .pb3{
+    display: flex;
+    flex-direction: column;
+  }
+  .donate .row .col-lg-4{
+    width: 100%;
+  } */
+  .navbar-brand img{
+    width:400px;
+     height:150px;
+  }
+
+  /* .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 50px;
+    font-size: 3rem;
+} */
+
+.navbar-light .navbar-nav .nav-link{
+  font-size: 3rem;
+  padding-left: 50px;
+}
+  /* .nav-item a {
+    font-size: 3rem;
+} */
+  .navbar-light .navbar-toggler{
+    font-size: xxx-large;
+  }
+ section{
+   font-size: 3rem;
+ } 
+ .home .box .item .content h5{
+  font-size: 3rem;
+}
+
+ .home .box .item .content p{
+   font-size: 3rem;
+ }
+ .home .box .item .content .red {
+   font-size: 5.5rem;
+ }
+
+ .home .button span{
+   font-size: 2.5rem;
+ }
+ /* .visionbox{
+   margin-top: 25%;
+ } */
+ .visionbox .fa{
+   font-size: 7rem;
+ }
+ .visionbox .mission p{
+   font-size: 3rem;
+ }
+ .visionbox .mission h2{
+   font-size: 5rem;
+ }
+ h1{
+   font-size: 5.5rem;
+ }
+ h3{
+   font-size: 3rem;
+ }
+
+ .container{
+   margin-top: 100%;
+ }
+ .about b{
+   font-size: 4.5rem;
+ }
+
+ .about .btn{
+   font-size: 3rem;
+   width: 32%;
+ }
+ .about p{
+  font-size: 3rem;
+  line-height: 55px;
+ }
+ .portfolio .box-container .box{
+   height: 40rem;
+ }
+ .portfolio .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.portfolio .box-container .box .content h4 {
+  font-size: 3rem;
+}
+.portfolio .subheading h3{
+  font-size: 3.9rem;
+  margin-top: -2rem;
+}
+
+
+.portfolio .subheading #social{
+  font-size: 3.7rem;
+  margin-top: -3rem;
+}
+ .portfolio #portfolio-text{
+  font-size: 3rem;
+ }
+
+ .portfolio #heading{
+   font-size: 4.5rem;
+ }
+ .portfolio span{
+   font-size: 4rem;
+ }
+/*  
+ .donate{
+   margin-top: -75%;
+ }
+.donate .card-body{
+  height: fit-content;
+}
+ .donate h4,h2{
+   font-size: 3rem;
+ }
+
+ .donate .placard{
+   height: 80px;
+ }
+ .donate .circle{
+   height: 50%;
+   width: 20%;
+ }
+ .donate .circle .fa{
+   font-size: 4rem;
+ } */
+ /*.team p {
+  line-height: 50px;
+}
+.team .column{
+  width: 65%;
+}
+.team h2{
+  font-size: 4.5rem;
+}
+ */
+.message{
+  width: 100%;
+  margin: 0%;
+}
+.testemonials{
+  font-size: 1.1rem;
+}
+
+.testemonials .carousel .testimonial,
+.testemonials .carousel .overview,
+.testemonials .carousel .star-rating{
+  font-size: 2rem;
+}
+
+.testemonials .carousel .overview b{
+  font-size: 3.5rem;
+}
+
+.subscribe .inptfld
+{
+  width: 40%;
+  height: 50px;
+}
+
+.subscribe .subscribebtn{
+  width: 20%;
+  height: 50px;
+}
+.col-md-2 {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.col-md-3 {
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+.col-md-4 {
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.footer p{
+  font-size: 3rem;
+}
+
+.footer h6{
+font-size: 3.5rem;
+}
+
+/* .footer .me-5{
+  font-size: 2.5rem;
+} */
+.footer #socialicon .fa{
+  font-size: 3.5rem;
+  padding-right: 10px;
+}
+
+
+.footer .text-center {
+  font-size: 3rem;
+}
+
+} 
+
+@media screen and (min-device-width: 300px) and (max-device-width: 400px) {
+  .navbar-brand img{
+    width:400px;
+     height:150px;
+  }
+
+  /* .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 50px;
+    font-size: 3rem;
+} */
+
+.navbar-light .navbar-nav .nav-link{
+  font-size: 3rem;
+  padding-left: 50px;
+}
+  /* .nav-item a {
+    font-size: 3rem;
+} */
+  .navbar-light .navbar-toggler{
+    font-size: xxx-large;
+  }
+ section{
+   font-size: 3rem;
+ } 
+ .home .box .item .content h5{
+  font-size: 3rem;
+}
+
+ .home .box .item .content p{
+   font-size: 3rem;
+ }
+ .home .box .item .content .red {
+   font-size: 5.5rem;
+ }
+
+ .home .button span{
+   font-size: 2.5rem;
+ }
+ /* .visionbox{
+   margin-top: 65%;
+ } */
+ .visionbox .fa{
+   font-size: 7rem;
+ }
+ .visionbox .mission p{
+   font-size: 3rem;
+ }
+ .visionbox .mission h2{
+   font-size: 5rem;
+ }
+ h1{
+   font-size: 5.5rem;
+ }
+ h3{
+   font-size: 3rem;
+ }
+
+ .container{
+   margin-top: 100%;
+ }
+ .about b{
+   font-size: 4.5rem;
+ }
+
+ .about .btn{
+   font-size: 3rem;
+   width: 32%;
+ }
+ .about p{
+  font-size: 3rem;
+  line-height: 55px;
+ }
+ .portfolio .box-container .box{
+   height: 40rem;
+ }
+ .portfolio .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.portfolio .box-container .box .content h4 {
+  font-size: 3rem;
+}
+.portfolio .subheading h3{
+  font-size: 3.9rem;
+  margin-top: -2rem;
+}
+
+
+.portfolio .subheading #social{
+  font-size: 3.7rem;
+  margin-top: -3rem;
+}
+ .portfolio #portfolio-text{
+  font-size: 3rem;
+ }
+
+ .portfolio #heading{
+   font-size: 4.5rem;
+ }
+ .portfolio span{
+   font-size: 4rem;
+ }
+/*  
+ .donate{
+   margin-top: -75%;
+ }
+.donate .card-body{
+  height: fit-content;
+}
+ .donate h4,h2{
+   font-size: 3rem;
+ }
+
+ .donate .placard{
+   height: 80px;
+ }
+ .donate .circle{
+   height: 50%;
+   width: 20%;
+ }
+ .donate .circle .fa{
+   font-size: 4rem;
+ } */
+ /*
+ .team p {
+  line-height: 50px;
+}
+.team .column{
+  width: 65%;
+}
+.team h2{
+  font-size: 4.5rem;
+} */
+
+.message{
+  
+  width: 100%;
+  margin: 0%;
+}
+
+.message p{
+  font-size: 2rem;
+}
+.testemonials{
+  font-size: 1.1rem;
+}
+
+.testemonials .carousel .testimonial,
+.testemonials .carousel .overview,
+.testemonials .carousel .star-rating{
+  font-size: 3rem;
+}
+
+.testemonials .carousel .overview b{
+  font-size: 3.5rem;
+}
+
+.subscribe .inptfld
+{
+  width: 40%;
+  height: 50px;
+}
+
+.subscribe .subscribebtn{
+  width: 20%;
+  height: 50px;
+}
+.col-md-2 {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.col-md-3 {
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+.col-md-4 {
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.footer p{
+  font-size: 3rem;
+}
+
+.footer h6{
+font-size: 3.5rem;
+}
+
+/* .footer .me-5{
+  font-size: 2.5rem;
+} */
+.footer #socialicon .fa{
+  font-size: 3.5rem;
+  padding-right: 10px;
+}
+
+
+.footer .text-center {
+  font-size: 3rem;
+}
+
+} 
+
+
+@media screen and (min-device-width: 400px) and (max-device-width: 500px) {
+  .navbar-brand img{
+    width:400px;
+     height:150px;
+  }
+
+  /* .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 50px;
+    font-size: 3rem;
+} */
+
+.navbar-light .navbar-nav .nav-link{
+  font-size: 3rem;
+  padding-left: 50px;
+}
+  /* .nav-item a {
+    font-size: 3rem;
+} */
+  .navbar-light .navbar-toggler{
+    font-size: xxx-large;
+  }
+ section{
+   font-size: 3rem;
+ } 
+ .home .box .item .content h5{
+  font-size: 3rem;
+}
+
+ .home .box .item .content p{
+   font-size: 3rem;
+ }
+ .home .box .item .content .red {
+   font-size: 5.5rem;
+ }
+
+ .home .button span{
+   font-size: 2.5rem;
+ }
+ /* .visionbox{
+   margin-top: 40%;
+ } */
+ .visionbox .fa{
+   font-size: 7rem;
+ }
+ .visionbox .mission p{
+   font-size: 3rem;
+ }
+ .visionbox .mission h2{
+   font-size: 5rem;
+ }
+ h1{
+   font-size: 5.5rem;
+ }
+ h3{
+   font-size: 3rem;
+ }
+
+ .container{
+   margin-top: 100%;
+ }
+ .about b{
+   font-size: 4.5rem;
+ }
+
+ .about .btn{
+   font-size: 3rem;
+   width: 32%;
+ }
+ .about p{
+  font-size: 3rem;
+  line-height: 55px;
+ }
+ .portfolio .box-container .box{
+   height: 40rem;
+ }
+ .portfolio .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.portfolio .box-container .box .content h4 {
+  font-size: 3rem;
+}
+.portfolio .subheading h3{
+  font-size: 4rem;
+  margin-top: -2rem;
+}
+
+
+.portfolio .subheading #social{
+  font-size: 3.7rem;
+  margin-top: -3rem;
+}
+ .portfolio #portfolio-text{
+  font-size: 3rem;
+ }
+
+ .portfolio #heading{
+   font-size: 4.5rem;
+ }
+ .portfolio span{
+   font-size: 4rem;
+ }
+
+ /* .donate{
+   margin-top: -75%;
+ }
+.donate .card-body{
+  height: fit-content;
+}
+ .donate h4,h2{
+   font-size: 3rem;
+ }
+
+ .donate .placard{
+   height: 80px;
+ }
+ .donate .circle{
+   height: 50%;
+   width: 20%;
+ }
+ .donate .circle .fa{
+   font-size: 4rem;
+ } */
+ /*
+ .team p {
+  line-height: 50px;
+}
+.team .column{
+  width: 65%;
+}
+.team h2{
+  font-size: 4.5rem;
+} */
+
+.testemonials{
+  font-size: 1.1rem;
+}
+
+.testemonials .carousel .testimonial,
+.testemonials .carousel .overview,
+.testemonials .carousel .star-rating{
+  font-size: 3rem;
+}
+
+.testemonials .carousel .overview b{
+  font-size: 3.5rem;
+}
+
+.subscribe .inptfld
+{
+  width: 40%;
+  height: 50px;
+}
+
+.subscribe .subscribebtn{
+  width: 20%;
+  height: 50px;
+}
+.col-md-2 {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.col-md-3 {
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+.col-md-4 {
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.footer p{
+  font-size: 3rem;
+}
+
+.footer h6{
+font-size: 3.5rem;
+}
+
+/* .footer .me-5{
+  font-size: 2.5rem;
+} */
+.footer #socialicon .fa{
+  font-size: 3.5rem;
+  padding-right: 10px;
+}
+
+
+.footer .text-center {
+  font-size: 3rem;
+}
+
+} 
+
+
+@media screen and (min-device-width: 500px) and (max-device-width: 600px) {
+  .navbar-brand img{
+    width:400px;
+     height:150px;
+  }
+
+  /* .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 50px;
+    font-size: 3rem;
+} */
+
+.navbar-light .navbar-nav .nav-link{
+  font-size: 3rem;
+  padding-left: 50px;
+}
+  /* .nav-item a {
+    font-size: 3rem;
+} */
+  .navbar-light .navbar-toggler{
+    font-size: xxx-large;
+  }
+ section{
+   font-size: 3rem;
+ } 
+ .home .box .item .content h5{
+  font-size: 3rem;
+}
+
+ .home .box .item .content p{
+   font-size: 3rem;
+ }
+ .home .box .item .content .red {
+   font-size: 5.5rem;
+ }
+
+ .home .button span{
+   font-size: 2.5rem;
+ }
+ /* .visionbox{
+   margin-top: 100%;
+ } */
+ .visionbox .fa{
+   font-size: 7rem;
+ }
+ .visionbox .mission p{
+   font-size: 3rem;
+ }
+ .visionbox .mission h2{
+   font-size: 5rem;
+ }
+ h1{
+   font-size: 5.5rem;
+ }
+ h3{
+   font-size: 3rem;
+ }
+
+ .container{
+   margin-top: 100%;
+ }
+ .about b{
+   font-size: 4.5rem;
+ }
+
+ .about .btn{
+   font-size: 3rem;
+   width: 32%;
+ }
+ .about p{
+  font-size: 3rem;
+  line-height: 55px;
+ }
+ .portfolio .box-container .box{
+   height: 40rem;
+ }
+ .portfolio .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.portfolio .box-container .box .content h4 {
+  font-size: 3rem;
+}
+.portfolio .subheading h3{
+  font-size: 4rem;
+  margin-top: -2rem;
+}
+
+
+.portfolio .subheading #social{
+  font-size: 3.7rem;
+  margin-top: -3rem;
+}
+ .portfolio #portfolio-text{
+  font-size: 3rem;
+ }
+
+ .portfolio #heading{
+   font-size: 4.5rem;
+ }
+ .portfolio span{
+   font-size: 4rem;
+ }
+/* 
+ .donate{
+   margin-top: -75%;
+ }
+.donate .card-body{
+  height: fit-content;
+}
+ .donate h4,h2{
+   font-size: 3rem;
+ }
+
+ .donate .placard{
+   height: 80px;
+ }
+ .donate .circle{
+   height: 50%;
+   width: 20%;
+ }
+ .donate .circle .fa{
+   font-size: 4rem;
+ } */
+
+ /*
+ .team p {
+  line-height: 50px;
+}
+.team .column{
+  width: 65%;
+}
+.team h2{
+  font-size: 4.5rem;
+} */
+
+.testemonials{
+  font-size: 1.1rem;
+}
+
+.testemonials .carousel .testimonial,
+.testemonials .carousel .overview,
+.testemonials .carousel .star-rating{
+  font-size: 3rem;
+}
+
+.testemonials .carousel .overview b{
+  font-size: 3.5rem;
+}
+
+
+.subscribe .inptfld
+{
+  width: 40%;
+  height: 50px;
+}
+
+.subscribe .subscribebtn{
+  width: 20%;
+  height: 50px;
+}
+.col-md-2 {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.col-md-3 {
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+.col-md-4 {
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.footer p{
+  font-size: 3rem;
+}
+
+.footer h6{
+font-size: 3.5rem;
+}
+
+/* .footer .me-5{
+  font-size: 2.5rem;
+} */
+.footer #socialicon .fa{
+  font-size: 3.5rem;
+  padding-right: 10px;
+}
+
+
+.footer .text-center {
+  font-size: 3rem;
+}
+
+} 
+
+
+@media screen and (min-device-width: 600px) and (max-device-width: 800px) {
+  .navbar-brand img{
+    width:400px;
+     height:150px;
+  }
+
+  /* .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 50px;
+    font-size: 3rem;
+} */
+
+.navbar-light .navbar-nav .nav-link{
+  font-size: 3rem;
+  padding-left: 50px;
+}
+  /* .nav-item a {
+    font-size: 3rem;
+} */
+  .navbar-light .navbar-toggler{
+    font-size: xxx-large;
+  }
+ section{
+   font-size: 3rem;
+ } 
+ .home .box .item .content h5{
+  font-size: 3rem;
+}
+
+ .home .box .item .content p{
+   font-size: 3rem;
+ }
+ .home .box .item .content .red {
+   font-size: 5.5rem;
+ }
+
+ .home .button span{
+   font-size: 2.5rem;
+ }
+ /* .visionbox{
+   margin-top: 80rem;
+ } */
+ .visionbox .fa{
+   font-size: 7rem;
+ }
+ .visionbox .mission p{
+   font-size: 3rem;
+ }
+ .visionbox .mission h2{
+   font-size: 5rem;
+ }
+ h1{
+   font-size: 5.5rem;
+ }
+ h3{
+   font-size: 3rem;
+ }
+
+ .container{
+   margin-top: 100%;
+ }
+ .about b{
+   font-size: 4.5rem;
+ }
+
+ .about .btn{
+   font-size: 3rem;
+   width: 32%;
+ }
+ .about p{
+  font-size: 3rem;
+  line-height: 55px;
+ }
+ .portfolio .box-container .box{
+   height: 40rem;
+ }
+ .portfolio .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.portfolio .box-container .box .content h4 {
+  font-size: 3rem;
+}
+.portfolio .subheading h3{
+  font-size: 3.9rem;
+  margin-top: -2rem;
+}
+
+
+.portfolio .subheading #social{
+  font-size: 3.7rem;
+  margin-top: -3rem;
+}
+ .portfolio #portfolio-text{
+  font-size: 3rem;
+ }
+
+ .portfolio #heading{
+   font-size: 4.5rem;
+ }
+ .portfolio span{
+   font-size: 4rem;
+ }
+/* 
+ .donate{
+   margin-top: -75%;
+ }
+.donate .card-body{
+  height: fit-content;
+}
+ .donate h4,h2{
+   font-size: 3rem;
+ }
+
+ .donate .placard{
+   height: 80px;
+ }
+ .donate .circle{
+   height: 50%;
+   width: 20%;
+ }
+ .donate .circle .fa{
+   font-size: 4rem;
+ } */
+ /*
+ .team p {
+  line-height: 50px;
+}
+.team .column{
+  width: 65%;
+}
+.team h2{
+  font-size: 4.5rem;
+} */
+
+.message{
+  width: 100%;
+  margin: 0%;
+}
+.testemonials{
+  font-size: 1.2rem;
+}
+
+.testemonials .carousel .testimonial,
+.testemonials .carousel .overview,
+.testemonials .carousel .star-rating{
+  font-size: 3rem;
+}
+
+.testemonials .carousel .overview b{
+  font-size: 3.5rem;
+}
+
+.subscribe .inptfld
+{
+  width: 40%;
+  height: 50px;
+}
+
+.subscribe .subscribebtn{
+  width: 20%;
+  height: 50px;
+}
+.col-md-2 {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.col-md-3 {
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+.col-md-4 {
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.footer p{
+  font-size: 3rem;
+}
+
+.footer h6{
+font-size: 3.5rem;
+}
+
+/* .footer .me-5{
+  font-size: 2.5rem;
+} */
+.footer #socialicon .fa{
+  font-size: 3.5rem;
+  padding-right: 10px;
+}
+
+
+.footer .text-center {
+  font-size: 3rem;
+}
+
+} 
+/*  
+@media screen and (min-device-width: 800px)and (max-device-width: 1000px){
+  .visionbox{
+    margin-top: 75%;
+  }
+} */
+/* 
+@media screen and (min-device-width: 200px)and (max-device-width: 800px){
+  .donate .row .col-lg-4{
+    width: 100%;
+  }
+  .donate .row{
+flex-direction: column;
+  }
+} */
+@media screen and (min-device-width: 1000px)and (max-device-width: 1090px){
+  /* .visionbox{
+    margin-top: 75%;
+  }*/
+  .about .row{ 
+    flex-direction: column;
+}
+.about .col{
+  width: 100%;
+}
+
+}
+
+@media screen and (min-device-width: 1090px)and (max-device-width: 1200px){
+  /* .visionbox{
+    margin-top: 0%;
+  } */
+  .about .row{
+    flex-direction: column;
+}
+.about .col{
+  width: 100%;
+}
+
+}
+
+@media screen and (min-device-width: 200px)and (max-device-width: 800px){
+  .home .box .item .content h1 {
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+  .message .text p1 {
+    font-size: 3rem;
+}
+.message p{
+  font-size: 2rem;
+}
+
+.donatevolunteerbox .text {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  float: none;
+  margin-left: 10%;
+}
+.donatevolunteerbox{
+  height: auto;
+  font-size: 2rem;
+}
+.donatevolunteerbox .text p,
+.donatevolunteerbox .text .button{
+  font-size: 2.5rem;
+}
+.donatevolunteerbox .text h2{
+  font-size: 3rem;
+} 
+
+.testemonials .carousel {
+  width: 100%;
+}
+}

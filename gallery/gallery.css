@@ -1,0 +1,311 @@
+/**********************************/
+/********** General CSS ***********/
+/**********************************/
+/* body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background: #ffffff;
+} */
+
+ .top-navbar{
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      }
+      
+      .navbar-light .navbar-nav .nav-link {
+        color: black;
+        font-size: 20px;
+        transition: .5s ease-in-out;
+      }
+      
+      .nav-item a {
+        font-size: large;
+        color: black;
+      }
+      .navbar-nav {
+        margin-left: auto;
+        padding-right: 10px;
+      }
+      
+      .navbar-brand img{
+        width:230px;
+         height:70px;
+      }
+      .navbar-expand-lg .navbar-nav .dropdown-menu{
+        border: none;
+        /* background: transparent; */
+      }
+
+
+      .image img{
+          width: 100%;
+      }
+      .cat-news a {
+    color: #FF6F61;
+    transition: 0.5s;
+}
+
+
+
+.cat-news a:hover,
+.cat-news a:active,
+.cat-news a:focus {
+    color: #000000;
+    outline: none;
+    text-decoration: none;
+}
+
+.cat-news .col-md-6 p{
+  color: #ffffff;
+}
+
+.cat-news p{
+    padding: 0;
+    margin: 0 0 15px 0;
+    color: #000000;
+}
+
+.cat-news h1,
+.cat-news h2,
+.cat-news h3,
+.cat-news h4,
+.cat-news h5,
+.cat-news h6 {
+    margin: 0 0 15px 0;
+    padding: 0;
+    color: #000000;
+    font-weight: 600;
+}
+
+.cat-news h4,
+.cat-news h5,
+.cat-news h6 {
+    font-weight: 400;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #FF6F61;
+    color: #ffffff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    border-radius: 4px;
+    z-index: 11;
+}
+
+.back-to-top:hover {
+    background: #000000;
+}
+
+.back-to-top i {
+    padding-top: 9px;
+    color: #ffffff;
+}
+
+
+
+/******* Category News CSS ********/
+/**********************************/
+.cat-news {
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+
+.cat-news .col-md-6 {
+    margin-bottom: 30px;
+}
+
+.cat-news h2 {
+    color: #000000;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 3px double #000000;
+}
+
+.cat-news .cn-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.cat-news .cn-img img {
+    width: 100%;
+}
+
+.cat-news .cn-img:hover img {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.cat-news .cn-title {
+    position: absolute;
+    top: 0; 
+    right: 0;
+    bottom: 0; 
+    left: 0;
+    padding: 15px 10px 15px 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .3), rgba(0, 0, 0, .9));
+    display: flex;
+    align-items: flex-end;
+}
+
+.cat-news .cn-title a {
+    display: block;
+    width:70%;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.cat-news .cn-title a:hover {
+    color: #FF6F61;
+}
+
+.cat-news .slick-prev,
+.cat-news .slick-next {
+    top: -62px;
+    width: 28px;
+    height: 28px;
+    z-index: 1;
+    transition: .5s;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 4px;
+}
+
+.cat-news .slick-prev {
+    left: calc(100% - 85px);
+}
+
+.cat-news .slick-next {
+    right: 14px;
+}
+
+.cat-news .slick-prev:hover,
+.cat-news .slick-prev:focus,
+.cat-news .slick-next:hover,
+.cat-news .slick-next:focus {
+    color: #ffffff;
+    background: #FF6F61;
+}
+
+.cat-news .slick-prev::before,
+.cat-news .slick-next::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: 18px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.cat-news .slick-prev::before {
+    content: "\f104";
+}
+
+.cat-news .slick-next::before {
+    content: "\f105";
+}
+
+
+
+    /* Subscribe */
+
+    .subscribe{
+        text-align: center;
+        padding: 20px;
+      }
+      .subscribebtn:hover{
+        background-color:#0f9c0f;
+        border: none;
+      }
+      
+      .subscribebtn{
+        background-color:#086908;
+        color: white;
+        border: none;
+      }
+      .inptfld{
+        border-radius: 20px;
+        padding: 5px;
+        width: 20%;
+      
+      }
+       .subscribebtn{
+        border-radius: 20px;
+        border: none;
+        padding: 5px;
+      }
+    
+    /* footer */
+              .footer #socialicon a {
+                text-decoration: none;
+              }
+              
+              .footer a{
+                text-decoration: none;
+              }
+              .footer #socialicon .text-white{
+                margin-right:0.5rem ;
+              } 
+            
+              
+              .footer #socialicon i{
+                text-align: left;
+                font-size: large;
+              }
+
+              .col-md-2 ,
+              .col-md-3,
+              .col-md-4{
+                text-align: left;
+            }
+            
+           
+@media screen and (min-device-width: 200px) and (max-device-width: 800px) {
+    .navbar-light .navbar-nav .nav-link {
+      color: #000000;
+      font-size: 1.1rem;
+      padding-left: 10px;
+      transition: .5s ease-in-out;
+    }
+    
+    .nav-item a {
+      font-size: 1rem;
+      color: black;
+      padding-left:45px;
+    }
+   
+    .navbar-brand img{
+      width:200px;
+       height:80px;
+    }
+
+    .footer h6{
+        font-size: 1rem;
+        }
+
+        .subscribe .inptfld
+  {
+    width: 50%;
+    height: 50px;
+  }
+  
+  .subscribe .subscribebtn{
+    width: 35%;
+    height: 50px;
+  }
+
+  .col-md-2 ,
+  .col-md-3,
+  .col-md-4{
+    text-align: center
+    ;
+}
+}

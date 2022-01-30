@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=IBM+Plex+Serif&family=Montserrat:wght@200&family=Playfair+Display&family=Quicksand:wght@500;600&family=Raleway:wght@100;200&family=The+Nautigal&family=Zilla+Slab:wght@500&display=swap"
+        rel="stylesheet">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="navfoot.css"> -->
+    <style>
+
+        /* body {
+            color: white;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 1.6rem;
+        } */
+
+
+        .top-navbar{
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      }
+      
+      .navbar-light .navbar-nav .nav-link {
+        color: black;
+        font-size: 20px;
+        transition: .5s ease-in-out;
+      }
+      
+      .nav-item a {
+        font-size: large;
+        color: black;
+      }
+      .navbar-nav {
+        margin-left: auto;
+        padding-right: 10px;
+      }
+      
+      .navbar-brand img{
+        width:230px;
+         height:70px;
+      }
+      .navbar-expand-lg .navbar-nav .dropdown-menu{
+        border: none;
+        /* background: transparent; */
+      }
+
+
+        .top {
+            background-image: url('cool-background.png');
+        }
+        
+        /* inner box*/
+        .top .inner-top {
+            color: white;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 1.6rem;
+            width: 90%;
+            background-color: black;
+            margin: auto;
+            margin-top: auto;
+            margin-top: 17%;
+            border-radius: 1%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin-top: -3%;
+        }
+        /*Heading*/ 
+
+        .top .heading {
+            text-align: center;
+            padding: 15;
+            padding: 7%;
+            font-size: 3.5rem;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+
+        .top .inner-top p{
+            padding: 6%;
+            line-height: 136%;
+            text-align: center;
+            margin-top: 1%;
+        }
+
+        /*apply now*/
+
+        .top .inner-top .apply-now {
+            text-align: center;
+            font-size: 3rem;
+            margin-top: -3%;
+            color: red;
+        }
+
+        .top .inner-top .apply-now p {
+            padding: 1%;
+        }
+
+        
+        .content h1 {
+            
+            background-image: linear-gradient(60deg, hsl(98 100% 62%), hsl(204 100% 59%));
+            text-align: center;
+            font-size: 4.5rem;
+            background-clip:text;
+            -webkit-background-clip: text;
+            color: transparent;
+            /* color: linear-gradient(60deg, hsl(98 100% 62%), hsl(204 100% 59%)); */
+            margin-top: -3%;
+            margin-bottom: -3%;
+        }
+
+        h3 {
+            font-size: 2.6rem;
+        }
+
+        /*life at medlife foundation*/
+
+        .top .outer .module-border-wrap {
+            
+            margin: auto;
+            display: grid;
+            place-items: center;
+            position: relative;
+            background: linear-gradient(to right, red, purple);
+            padding: 8px;
+            border-radius: 8px;
+            margin-top: -9%;
+        }
+
+        .top .outer .module-border-wrap .module {
+            background: black;
+            color: color;
+            padding: 2rem;
+            border-radius: 13px;
+
+        }
+
+        .top .outer{
+            padding: 6%;
+            border-radius: 7%;
+        }
+
+        .top .working h3 {
+            text-align: center;
+            margin-bottom: -3%;
+            margin-top: 0%;
+        }
+
+        .top .outer .module-border-wrap .module h3{
+            text-align: center;
+            margin-top: 0%;
+        }
+
+         /* Subscribe */
+
+.subscribe{
+    text-align: center;
+    padding: 20px;
+  }
+  .subscribebtn:hover{
+    background-color:#0f9c0f;
+    border: none;
+  }
+  
+  .subscribebtn{
+    background-color:#086908;
+    color: white;
+    border: none;
+  }
+  .inptfld{
+    border-radius: 20px;
+    padding: 5px;
+    width: 20%;
+  
+  }
+   .subscribebtn{
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+  }
+
+/* footer */
+          .footer #socialicon a {
+            text-decoration: none;
+          }
+          
+          .footer a{
+            text-decoration: none;
+          }
+          .footer #socialicon .text-white{
+            margin-right:0.5rem ;
+          } 
+        
+          
+          .footer #socialicon i{
+            text-align: left;
+            font-size: large;
+          }
+         
+
+          
+  
+      @media screen and (min-device-width: 200px) and (max-device-width: 800px) {
+        .navbar-light .navbar-nav .nav-link {
+          color: #000000;
+          font-size: 1.1rem;
+          padding-left: 10px;
+          transition: .5s ease-in-out;
+        }
+        
+        .nav-item a {
+          font-size: 1rem;
+          color: black;
+          padding-left:45px;
+        }
+       
+        .navbar-brand img{
+          width:200px;
+           height:80px;
+        }
+    
+        .footer h6{
+            font-size: 1rem;
+            }
+    
+            .subscribe .inptfld
+      {
+        width: 50%;
+        height: 50px;
+      }
+      
+      .subscribe .subscribebtn{
+        width: 35%;
+        height: 50px;
+      }
+    }
+.images img{
+    width: 100%;
+}
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <nav class="top-navbar navbar navbar-expand-lg navbar-light bg-transparent">
+            <a class="navbar-brand" style="padding-left: 5%" href="index.html">
+                <img src="images\Medlife-Foundation-Reg-Logo.png" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About Us</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Home.html">Mission and Vision</a>
+                            <a class="dropdown-item" href="awards.html">Awards and Accolades</a>
+                            <a class="dropdown-item" href="financial.html">Financial and Report</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            What we do?</a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="causes/sustainablemenstruation.html">Sustainable Menstruation</a>
+                            <a class="dropdown-item" href="causes/healthcare.html">Sustainable Healthcare</a>
+                            <a class="dropdown-item" href="causes/womenempowerment.html">Women-empowerment</a>
+                            <a class="dropdown-item" href="causes/child_development.html">Child Development</a>
+                            <a class="dropdown-item" href="causes/social_entrepreneurship.html">Social Entrepreneurship and
+                                Livelihood</a>
+                            <a class="dropdown-item" href="causes/new-environment.html">Environment</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="VolunteerForm.html">Volunteer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team_section.html">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery/galleery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="background-color: rgb(15, 179, 15);width: fit-content; color: honeydew;border-radius: 10px;" href="donate.html">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="images">
+        <img src="images/Career (4).png" alt="" srcset="">
+    </div>
+    <div class="top">
+
+        <div class="heading">
+            <h1 style="color:black;">CAREER</h1>
+        </div>
+
+        <div class="inner-top">
+            <div class="content">
+                <p>Medlife volunteers handpicked professionals not just for their knowledge and experience but for their
+                    zeal to make a difference to the world of healthcare.
+                    The organization believes that our biggest assets are the volunteers, who lead us to prosperity,
+                    growth and social change in the future.
+
+                </p>
+                <h1>APPLY NOW!</h1>
+                <p>In pursuit of excellence, Medlife always keep in mind that its Volunteers come first. The philosophy
+                    – Caring for Life – begins with the commitment to Medlife and its Volunteer.
+
+                    So if you share Medlife values of trust, transparency, quality, integrity, safety and respect and
+                    you want to work in an organization that will give you space to explore your potential, send us your
+                    CVs to <a href="mailto:info@medlifefoundation.org ">info@medlifefoundation.org </a>
+                </p>
+            </div>
+
+            <div class="outer">
+                <div class="module-border-wrap">
+                    <div class="module">
+                        <h3>Life At Medlife</h3>
+                        Talented and capable people have played a major role in powering and defining the growth of
+                        organization over the last decades. They have been supported by an enabling environment that
+                        buoys individual talent while fostering teamwork and the creation of shared success. We believe
+                        that when people with diverse skills are bound together by a common purpose and value system,
+                        they can make change.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="working">
+                <h3>Working at Medlife Foundation</h3>
+                <p>Medlife Foundation does not just give you a job, it takes pride in helping you build a career for
+                    yourself by giving you opportunities to learn, perform and grow. The Human Resources function
+                    contributes to Medlife growth story by working as a strategic partner to the social growth. The
+                    technical and quality demands of Medlife combined with the vision to grow significantly over the
+                    next few years, drive the need for the company to build an agile, engaged, and energized work force.
+                    While doing this, Medlife continues to retain focus on organization values and its core philosophy
+                    of placing people before profits.</p>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+    <div class="subscribe">
+        <h1 style="font-weight: bolder;"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;Join our community</h1>
+        <input class="inptfld" name="email" placeholder=" Your Email" type="text">
+        <input style="margin-top: 5px;" class="subscribebtn" value="Subscribe Now!" type="submit">
+    </div><br>
+    
+      <!-- FOOTER -->
+      <div class="footer">
+        <footer class="text-center text-lg-start text-white" style="background-color: #1c2331;width: 100%;">
+
+            <!-- Section: Links  -->
+            <section class="" style="padding:1%;">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold">Medlife Foundation</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                Medlife Foundation strives to work towards finding Effective Healthcare Solutions to the problems
+                        faced by people who are not privileged by spreading awareness on Sustainable Menstruation and
+                        Development of Children belonging to a weaker section of society. ....<br>
+                                <a href="timeline.html" >Learn more</a>
+                            </p>
+
+
+                        </div>
+
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                            <h6 class="text-uppercase fw-bold">Quick links</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="timeline.html" class="text-white"><i class="fa fa-arrow-circle-right"
+                                        aria-hidden="true"></i>&nbsp About us</a>
+                            </p>
+
+                            <!-- <p>
+                                <a href="#portfolio" class="text-white"><i class="fa fa-arrow-circle-right"
+                                        aria-hidden="true"></i>&nbsp What we do?</a>
+                            </p> -->
+                            <p>
+                                <a href="donate.html" class="text-white"><i class="fa fa-arrow-circle-right"
+                                        aria-hidden="true"></i>&nbsp Donate</a>
+                            </p>
+                            <p>
+                                <a href="contact.html" class="text-white"><i class="fa fa-arrow-circle-right"
+                                        aria-hidden="true"></i>&nbsp Contact us</a>
+                            </p>
+                            <p>
+                                <a href="FAQ.html" class="text-white"><i class="fa fa-arrow-circle-right"
+                                        aria-hidden="true"></i>&nbsp
+                                    FAQ</a>
+                            </p>
+
+                        </div>
+
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Useful links</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px;">
+
+                            <p>
+                                <a href="career.html" class="text-white"><i class="fa fa-arrow-circle-right"
+                                        aria-hidden="true"></i>&nbsp
+                                    Career</a>
+                            </p>
+                            <!-- <p>
+                                <a href="#!" class="text-white"><i class="fa fa-arrow-circle-right"
+                                        aria-hidden="true"></i>
+                                    Gallery</a>
+                            </p> -->
+                            <p>
+                                <a href="partnersandsupporters.html" class="text-white"><i
+                                        class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp
+                                        Partner's and
+                                    supporters</a>
+                            </p>
+                            <p>
+                                <a href="InternshipForm.html" class="text-white"><i class="fa fa-arrow-circle-right"
+                                        aria-hidden="true"></i>&nbsp
+                                    Apply for Internship</a>
+                            </p>
+                            <p>
+                                <a href="corporatepartnership.html" class="text-white"><i
+                                        class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp
+                                    Corporate partnership</a>
+                            </p>
+                            <p>
+                                <a href="VolunteerForm.html" class="text-white"><i class="fa fa-arrow-circle-right"
+                                        aria-hidden="true"></i>&nbsp
+                                    Be a Volunteer</a>
+                            </p>
+                        </div>
+
+
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Contact</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p> <a href="tel:827-532-0465" style="color: white;"><i class="fa fa-phone mr-3"></i> Mr.Bhushan :+91 82753 20465</a></p>
+                
+                            <p><a href="tel:997-005-4699" style="color: white;"><i class="fa fa-phone mr-3"></i>
+                                    Mr.Sandeep : +91 99700 54699</a></p>
+                            <p><a href="tel:930-739-9492" style="color: white;"><i class="fa fa-phone mr-3"></i>
+                                        Dr.Bhushan : +91 93073 99492</a></p>
+                            <!-- <p><a href="tel:930-739-9492" style="color: white;"><i class="fa fa-phone mr-3"></i> Dr.Bhushan : +91 93073 99492</a></p>                  -->
+                            <p><a href="mailto:info@medlifefoundation.org" style="color: white;"><i
+                                        class="fa fa-envelope mr-3"></i>&nbsp
+                                    info@medlifefoundation.org</a> </p>
+                            <p><a href="www.medlifefoundation.org" style="color: white;"><i
+                                        class="fa fa-globe"></i>&nbsp
+                                    www.medlifefoundation.org</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- Copyright -->
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                <div id="socialicon">
+                    <a href="https://www.facebook.com/medlifefoundationbahal" target="_blank"
+                        class="text-white">
+                        <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/Med_foundation" target="_blank" class="text-white">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="Home.html" target="_blank" class="text-white">
+                        <i class="fa fa-google"></i>
+                    </a>
+                    <a href="https://www.instagram.com/medlifefoundation/" target="_blank"
+                        class="text-white ">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/c/MedlifeFoundation" target="_blank"
+                        class="text-white">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/medlife-foundation" target="_blank"
+                        class="text-white ">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+
+                </div><br>
+                © 2016-2022 Copyright:&nbsp;
+                <a class="text-white" href="index.html">Medlifefoundation </a>|
+                <a class="text-white" href="privacy.html">Privacy Policy</a>|
+                <a class="text-white" href="terms.html">Terms & Conditions</a>|
+                <a class="text-white" href="refund.html">Refund Policy</a>
+               
+            </div>
+
+        </footer>
+    </div>
+
+    <!-- scriptlinks -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
